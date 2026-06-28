@@ -608,6 +608,7 @@ Các lệnh phân cấp này không đứng ngang hàng với nhau, mà được
 | Tiểu tiểu mục (Subsubsection) | \subsubsection | 3      |
 |                               |                |        |
 |                               |                |        |
+
 (xem ở bảng trong đây: https://gemini.google.com/app/27c4ea77a487c7c5?hl=vi)
 
 Tùy thuộc vào `documentclass` mà người dùng đang sử dụng mà thứ tự cấp độ ở bảng trên sẽ có chút thay đổi. 
