@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./custom/Reading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.css"></link>
+
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.js">
+    </script>
+    
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/stex/stex.js">
+    </script>
+
+    <style type="text/css" media="screen">
+      .ace_editor {
+        border: 1px solid lightgray;
+        margin-bottom: 1px !important;
+        width: 100%;
+      }
+      div.spacer {
+        margin-top:16px;
+      }
+    </style>
+
+    <script src="./runlatex/runlatex-codemirror.js"></script> <!-- file runlatex-codemirror.js -->
+    
+    <style>   
+      .CodeMirror { height: auto; border: 1px solid #ddd; }
+      .CodeMirror-scroll { max-height: 300px; }
+      .CodeMirror pre { padding-left: 7px; line-height: 1.25; }
+      .banner { background: #ffc; padding: 6px; border-bottom: 2px solid silver; text-align: center }
+    </style>
+    <title>regular-links</title>
+</head>
+
+<body>
+
+    <center><h1>Liên kết thông thường trong LaTeX</h1></center>
+
+    <section id = "regular-links">
+        <p>Đầu tiên ta cần phải khai báo package sau:</p>
+    </section>
+
+    <div class="h">
+        <pre>
+\usepackage{hyperref}
+        </pre>
+    </div>
+
+    <section id = "regular-links">
+        <p>Người dùng có thể thêm liên kết đến địa chỉ web vào phần soạn thảo LaTeX bằng cách <b>trực tiếp</b> 
+            hoặc <b>gián tiếp</b> sau.</p>
+
+        <h2>a. Liên kết trực tiếp</h2>
+        <p>Sử dụng lệnh sau:</p>
+    </section>
+
+    <div class="h">
+        <pre>
+\url{my_url}
+        </pre>
+    </div>
+
+    <section id = "regular-links">
+    <p>trong đó:</p>
+    <ul>
+        <li>my_url: là địa chỉ URL mà bạn muốn tạo liên kết</li>
+    </ul>        
+    </section>
+
+    <section id = "regular-links">
+        <p>Ví dụ đối với cách chèn liên kết trực tiếp:</p>
+    </section>
+    
+    <div class="h">
+        <pre>
+\documentclass{article} 
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+% Useful packages
+\usepackage{hyperref} % 
+\urlstyle{same} % 
+% 
+\title{Your Paper} 
+\author{You}
+\date{\today}
+\begin{document}
+\maketitle
+\url{<https://github.com/Namlete/LaTeX-Library-project-demo>} % 
+\end{document}
+        </pre>    
+    </div>
+
+    <!-- Liên kết gián tiếp -->
+    
+    <section id = "regular-links">
+        <h2>b. Liên kết gián tiếp</h2>
+        <p>Sử dụng lệnh sau:</p>
+    </section>
+
+    <div class="h">
+        <pre>
+\href{my_url}{description}
+        </pre>
+    </div>
+
+    <section id = "regular-links">
+        <p>
+            Nó sẽ hiển thị phần <code>description</code> bằng phông chữ chuẩn của tài liệu khi soạn. 
+            Khi người dùng nhấp vào phần <code>description</code> đó trên tài liệu, trình duyệt web 
+            sẽ mở ra và trỏ đến đúng URL bên trong <code>my_url</code> mà người dùng đã dùng để chèn vào lệnh trên.
+        </p>
+
+        <p>Ví dụ:</p>
+    </section>
+
+    <div class="h">
+        <pre>
+\href{https://github.com/Namlete/LaTeX-Library-project}{Thư viện LaTeX}
+        </pre>
+    </div>
+    
+    <section id = "regular-links">
+        <p>
+            Cả hai cách <b>trực tiếp</b> hoặc <b>gián tiếp</b> trên đều cùng trỏ đến trang của trình duyệt web. 
+            Nhưng với cách <b>trực tiếp</b>, thì URL sẽ được hiển thị trực tiếp ngay trên tài liệu. Trong khi cách 
+            <b>gián tiếp</b> thì URL sẽ bị ẩn, thay vào đó là chỉ hiển thị <code>description</code> mà người dùng 
+            đã chèn URL vào.
+        </p>
+    </section>
+
+    <section id = "regular-links">
+        <p>Nếu như người dùng không thích để URL hiển thị với phông chữ đơn cách và muốn chúng được in với 
+            cùng kiểu chữ với phần còn lại của văn bản, người dùng có thể sử dụng lệnh sau:</p>   
+    </section>
+    
+    <div class="h">
+        <pre>
+\urlstyle{same}
+        </pre>
+    </div>
+
+    <section id = "regular-links">
+        <p>
+            Ngoài việc có thể được sử dụng để chèn liên kết đến các trang web bằng phương pháp <b>gián tiếp</b> trên, 
+            lệnh <code>\href</code> có thể được sử dụng để cung cấp đến các <b>liên kết địa chỉ email</b>, 
+            <b>liên kết tệp nội bộ</b>, <b>liên kết đến bất kỳ đâu trong tệp PDF đầu ra</b>, và cũng như là 
+            <b>chèn liên kết thủ công (Inserting links manually)</b>.
+        </p>
+    </section>
+
+    <hr>
+    
+    <!-- Back to previous page -->
+
+    <section id = "back">
+        <ul>
+            <li><a href="https://namlete.github.io/LaTeX-Library-web/"><p>[Back]</p></a></li>
+            <li><a href="#"><p>[Next]</p></a></li>
+        </ul>
+    </section>
+</body>
+</html>

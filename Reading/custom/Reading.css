@@ -1,0 +1,38 @@
+/* Body */
+
+body{
+    margin:auto; 
+    max-width: 60em;
+    background-color: #f6fff5;
+    text-align: justify;
+}
+
+p {
+    line-height: 1.4;
+}
+
+#regular-links pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow-x: auto;
+    margin:0;
+    padding: .5em;
+}
+
+#back{
+    margin: 20px 0;
+}
+
+/* Back/Next Navigation */
+
+#back ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#back ul li a{
+    color: blue;
+    margin: 200px;
+    text-decoration: none;
+}
