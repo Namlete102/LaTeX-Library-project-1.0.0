@@ -1,1 +1,3 @@
-# LaTeX-Library-project-1.0.0
+# LaTeX-Library-project 
+
+Đây mới chỉ là phiên bản 1.0.0 và còn rất dài ở phía trước. 
