@@ -1,4 +1,3 @@
-
 ```markdown
 \[1]: https://latexguide.org/frequently-asked-questions/
 
