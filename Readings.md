@@ -1,6 +1,3 @@
----
-
----
 # a. Các bài học 
 
 ## Cấu trúc của soạn thảo LaTeX
@@ -9,7 +6,7 @@
 ---
 ## Sang trang tài liệu mới
 
-Để sang một trang tài liệu mới, người dùng cần sử dụng lệnh sau: 
+Để sang một trang tài liệu mới, người dùng sử dụng lệnh sau: 
 ```latex
 \newpage
 ```
