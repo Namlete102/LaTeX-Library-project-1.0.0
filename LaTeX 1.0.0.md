@@ -12,12 +12,12 @@ Test các đoạn mã trên [overleaf.com](http://overleaf.com/):  https://www.o
 
 Viết bài học phiên bản 1.0.0 LaTeX:  [[Readings]] 
 
-Các tài liệu mà mình tham khảo: [[2026/IT-project/LaTeX-Library-project/1.0.0/Bib]]
+Các tài liệu mà mình tham khảo: [[LaTeX-Library-project-1.0.0/Bib|Bib]]
 
 Các câu hỏi thường gặp ở LaTeX: [[Question]]
 
 Tổng hợp các từ trong LaTeX: [[Dictionary]]
 
-Thiết kế trang bìa cũng như web của riêng mình để chứa các bài học LaTeX đây: [[Web LaTeX 's Library]]
+Thiết kế trang bìa cũng như web của riêng mình để chứa các bài học LaTeX đây: [[Web]]
 
 Nhật ký làm dự án này [[Diary]]   
