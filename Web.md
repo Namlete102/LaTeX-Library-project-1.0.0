@@ -9,11 +9,11 @@ Trang tham khảo mẫu thiết kế:
 + https://www.learnlatex.org/vi/lesson-03 
 + https://github.com/davidcarlisle/latexcgi (TeXlive.net) 
 
-Thiết kế banner bằng Figma dựa trên ý tưởng làm thumnail từ video âm nhạc của ca sĩ Sujian Stevens (ý tưởng là vậy chứ lúc làm nhìn chán ác): https://www.figma.com/design/E5loNfD3k4lmooZqjzpNnj/B%C3%ADa-s%C3%A1ch?node-id=1-2&t=GmiSaoQKrySqJyb4-1 
+Thiết kế banner bằng Figma dựa trên ý tưởng làm thumbnail từ video âm nhạc của ca sĩ Sufjan Stevens (ý tưởng là vậy chứ lúc làm nhìn chán ác): https://www.figma.com/design/E5loNfD3k4lmooZqjzpNnj/B%C3%ADa-s%C3%A1ch?node-id=1-2&t=GmiSaoQKrySqJyb4-1 
 
 <center>
 <figure>
-    <img src="2026/IT-project/LaTeX-Library-project/1.0.0/Images/banner.jpg"
+    <img src="LaTeX-Library-project-1.0.0/Images/banner.jpg"
          alt="banner">
 </figure>
 </center>

@@ -791,6 +791,7 @@ Ví dụ về danh sách có thứ tự về các loại danh sách có trong La
 \documentclass{article}
 \usepackage[utf8]{vietnam}
 \begin{document}
+Liệt kê các loại danh sách phổ biến trong \LaTeX{} bằng môi trường \verb|enumerate|
 \begin{enumerate} 
     \item Danh sách không có thứ tự
     \item Danh sách có thứ tự
@@ -914,7 +915,7 @@ Ví dụ đối với cách chèn link trực tiếp:
 \date{\today}
 \begin{document}
 \maketitle
-\url{<https://github.com/Namlete/LaTeX-Library-project-demo>} % 
+\url{<https://github.com/Namlete102/LaTeX-Library-project-1.0.0>} % 
 \end{document}
 ```
 
@@ -1819,7 +1820,7 @@ f(x) = f(a) + \frac{f'(a)}{1!}(x-a) + \frac{f^{''}(a)}{2!}(x-a)^2 + \frac{f^{'''
 $$
 <center>
 <figure>
-    <img src="2026/IT-project/LaTeX-Library-project/1.0.0/Images/Brooks Taylor.jpg"
+    <img src="LaTeX-Library-project-1.0.0/images/Brooks Taylor.jpg"
          alt="Taylor">
 	<figcaption>Nhà toán học người Anh Brooks Taylor (Ảnh lụm được ở <a href="https://en.wikipedia.org/wiki/Brook_Taylor#/media/File:Hans_Hysing_(1678-1753)_(attributed_to_studio_of)_-_Brook_Taylor_(1685%E2%80%931731)_-_RS.9685_-_Royal_Society.jpg">wikipedia</a>)</figcaption>
 </figure>
@@ -1828,21 +1829,55 @@ $$
 ---
 ### Màu trong toán học[^15] 
 
-(vì sao đôi khi cần màu trong công thức toán học ? làm cách nào ?)
+(vì sao đôi khi ta cần màu trong công thức toán học ?) 
 
-Ví du bằng phương trình Navier - Stokes https://epsilonvn.github.io/archives/epsilon_vol13_2017February.pdf 
+Để viết các kí hiệu toán học có màu, người dùng có thể sử dụng lệnh `\textcolor{}` ở bài học [màu chữ] hoặc cũng có thể thay thế lệnh đó bằng lệnh sau
+```latex
+\mathcolor{color}{text}
+```
+
+Ví dụ với công thức Descartes - Euler về mối liên hệ giữa đỉnh, cạnh, mặt. Với mọi khối đa diện lồi nào, số đỉnh trừ đi số cạnh cộng với số mặt luôn có hằng số là bằng 2: 
+```latex
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath} % for the equation* environment
+\usepackage{xcolor} % for text color 
+
+\begin{document}
+
+. . .
+
+\[\mathcolor{red}{V} - \mathcolor{blue}{E} + \mathcolor{green}{F} = 2\]
+
+trong đó: 
+
+\begin{itemize}
+    \item \textcolor{red}{V}: Số đỉnh (Vertex) của khối đa diện lồi
+    \item \textcolor{blue}{E}: Số cạnh (Edge) của khối đa diện lồi
+    \item \textcolor{green}{F}: Số mặt phẳng (Face) của khối đa diện lồi
+\end{itemize}
+\end{document}
+```
+
+$$
+\textcolor{red}{V} - \textcolor{blue}{E} + \textcolor{green}{F} = 2 
+$$
 
 <center>
 <figure>
-    <img src="2026/IT-project/LaTeX-Library-project/1.0.0/Images/Navier-Stokes.jpg"
-         alt="Navier-Stokes">
-	<figcaption>Nhà vật lý người Pháp Claude-Louis Navier (trái) và nhà vật lý người Ireland George Stokes (phải)</figcaption>
+    <img src="LaTeX-Library-project-1.0.0/images/Descartes-Euler.jpg"
+         alt="Descartes - Euler">
+	<figcaption>Nhà toán học người Pháp René Descartes (Trái) và nhà toán học người Thụy Sĩ Leonhard Euler (phải)</figcaption>
 </figure>
 </center>
 
+(tài liệu tham khảo phần công thức Euler: https://drive.google.com/file/d/1O_QiD8GcipW0DXclsRH7HoWUsnr9pE4y/view?usp=sharing)
 
 ---
 ### Liên phân số:  [^13]
+
+Viết phần toán học luôn là chủ đề yêu thích của tác giả, vậy nên có lẽ sẽ hợp lý nếu như tác giả vừa giới thiệu phần chủ đề toán học đó cũng như là cách viết các kí hiệu trên LaTeX thì sẽ một công đôi việc thú vị.  
 
 Đối với một . . . 
 
