@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="./images/banner.jpg" alt="banner">
+
+</div>
+
 # a. Các bài học 
 
 ## Cấu trúc của soạn thảo LaTeX
@@ -1196,7 +1202,7 @@ F = k_e \frac{|q_1 q_2|}{r^2}
 
 <div align="center">
 
- <img src="./images/Coulomb.jpg" alt="Coulomb">
+<img src="./images/Coulomb.jpg" alt="Coulomb">
 
 Nhà vật lý người Pháp Charles-Augustin de Coulomb
 
@@ -1710,6 +1716,7 @@ S = k_b \cdot \Omega
 ```
 
 Kết quả cho ra được sẽ là:
+
 $$
 S = k_b \cdot \Omega 
 $$
@@ -1736,6 +1743,7 @@ Các kí hiệu chỉ số trên và chỉ số dưới cũng có thể được
 ```
 
 Kết quả cho ra được sẽ là 
+
 $$
 (a + b)^n = C^k_n a^{n-k} b^k
 $$
