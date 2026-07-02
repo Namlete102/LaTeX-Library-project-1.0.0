@@ -6,3 +6,4 @@ Nơi lữu trữ các từ và giải thích các từ đó từ chuyên ngành 
 + environment: môi trường 
 + Kí tự là
 + Kí hiệu là 
++ Justified (căn đều hai bên) là . . .
